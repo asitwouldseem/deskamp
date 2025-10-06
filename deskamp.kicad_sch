@@ -8875,7 +8875,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Alps_RK163_Dual_Horizontal"
 			(at 212.09 69.215 0)
 			(effects
 				(font
