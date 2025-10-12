@@ -7724,7 +7724,7 @@
 				)
 			)
 		)
-		(property "Footprint" "L9110:so-8"
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
 			(at 165.1 39.37 0)
 			(effects
 				(font
