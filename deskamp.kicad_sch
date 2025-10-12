@@ -7412,7 +7412,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_5.2x5.2mm_P3.5mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L38.0mm_W9.0mm_P40.64mm"
 			(at 198.882 34.29 90)
 			(effects
 				(font
@@ -8444,7 +8444,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "OptoDevice:R_LDR_5.2x5.2mm_P3.5mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L38.0mm_W9.0mm_P40.64mm"
 			(at 203.962 34.29 90)
 			(effects
 				(font
