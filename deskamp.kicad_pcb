@@ -3060,7 +3060,7 @@
 	(footprint "esp32-wemos-d1-mini:esp32-wemos-d1-mini"
 		(layer "F.Cu")
 		(uuid "726d643b-a2d6-4c04-be65-6dc6033e90b5")
-		(at 191.37 78.37)
+		(at 191.75 80.21)
 		(property "Reference" "U1"
 			(at -3.81 1.27 0)
 			(layer "F.SilkS")
@@ -5229,7 +5229,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "8c5ff21a-e6ca-4b1a-a42f-7bc08c9c2e9a")
-		(at 158 89.04 90)
+		(at 163.4 76.74 90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R1"
@@ -7907,7 +7907,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "b72f7105-5538-465f-9b4a-ed062abdca5d")
-		(at 163 89.04 90)
+		(at 168.4 76.74 90)
 		(descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=5.08mm, 0.167W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 5.08mm 0.167W length 3.6mm diameter 1.6mm")
 		(property "Reference" "R2"
@@ -10485,7 +10485,7 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-AM_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "f27cfe68-090c-465c-bcd7-481da5951fa0")
-		(at 163 77.05 180)
+		(at 168.4 64.75 180)
 		(descr "JST XH series connector, B3B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical boss")
 		(property "Reference" "J4"
@@ -11412,12 +11412,28 @@
 		(uuid "1a947982-68bc-4b1e-8d72-849f6094ff6f")
 	)
 	(segment
+		(start 24.28 138.7502)
+		(end 22.9575 137.4277)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "438f316e-0fac-4ddc-889c-06724adfb83a")
+	)
+	(segment
 		(start 169.8 100.6)
 		(end 171.26 99.14)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 1)
 		(uuid "aa45f152-e3c0-4993-90a9-fcec3f6e9e8f")
+	)
+	(segment
+		(start 24.28 143.93645)
+		(end 24.28 138.7502)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 1)
+		(uuid "b4b2990e-fbaf-4715-8619-a6089494cac0")
 	)
 	(segment
 		(start 169.9331 115.3869)
@@ -11458,6 +11474,22 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "f6a5df08-7489-421e-85a3-1522278e8a2a")
+	)
+	(segment
+		(start 31.9 138.6452)
+		(end 33.1175 137.4277)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "714c1750-e258-4d31-a099-d4664315ded2")
+	)
+	(segment
+		(start 31.9 143.93645)
+		(end 31.9 138.6452)
+		(width 0.5)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "caee616a-c642-487c-a5a0-8da6b26e4488")
 	)
 	(segment
 		(start 170.1269 123.0069)
@@ -11514,6 +11546,14 @@
 		(layer "F.Cu")
 		(net 5)
 		(uuid "c5244835-385b-4753-9363-e00bab924183")
+	)
+	(segment
+		(start 209.9 147.6)
+		(end 209.9 137.6)
+		(width 1)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "8e41231b-81ee-4385-a2a1-8ee931cbe7ce")
 	)
 	(segment
 		(start 148.75 120.65)
@@ -11660,8 +11700,8 @@
 		(uuid "befb23b8-a52a-48a2-b923-1f913ee2aeb7")
 	)
 	(segment
-		(start 163 83.96)
-		(end 163 77.05)
+		(start 168.4 71.66)
+		(end 168.4 64.75)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 11)
@@ -11708,8 +11748,8 @@
 		(uuid "cf87e73c-d70a-4522-9b69-f0443228df66")
 	)
 	(segment
-		(start 158 83.96)
-		(end 158 77.05)
+		(start 163.4 71.66)
+		(end 163.4 64.75)
 		(width 0.5)
 		(layer "F.Cu")
 		(net 78)
