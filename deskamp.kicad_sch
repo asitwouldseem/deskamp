@@ -5823,26 +5823,6 @@
 		)
 		(uuid "fe1da534-a486-45c3-972b-5eef4da6cf37")
 	)
-	(label "Motor_N"
-		(at 184.15 92.71 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8bb57628-1a3d-4798-a465-4f6210e19169")
-	)
-	(label "Motor_P"
-		(at 182.88 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f4a032b3-91b4-473a-b309-473283324045")
-	)
 	(symbol
 		(lib_id "Transistor_BJT:PN2222A")
 		(at 101.6 139.7 90)
