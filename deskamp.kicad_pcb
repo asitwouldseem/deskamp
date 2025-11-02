@@ -111,9 +111,9 @@
 			(subtractmaskfromsilk no)
 			(outputformat 1)
 			(mirror no)
-			(drillshape 1)
+			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "/Users/cameron/Downloads/")
 		)
 	)
 	(net 0 "")
@@ -3889,8 +3889,8 @@
 		(at 173.86 107.93 180)
 		(descr "8-lead though-hole mounted DIP package, row spacing 7.62mm (300 mils)")
 		(tags "THT DIP DIL PDIP 2.54mm 7.62mm 300mil")
-		(property "Reference" "U1"
-			(at 3.86 3.67 0)
+		(property "Reference" "UL9110"
+			(at 3.86 3.67 90)
 			(layer "F.SilkS")
 			(uuid "0a0321db-7218-4f40-b465-00cb48824c7b")
 			(effects
@@ -4629,8 +4629,8 @@
 		(at 85.97 123.2 90)
 		(descr "JST XH series connector, B2B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical boss")
-		(property "Reference" "J7"
-			(at 1.25 -3.55 90)
+		(property "Reference" "12V IN"
+			(at 1.25 5 90)
 			(layer "F.SilkS")
 			(uuid "2fa72ef2-a8c4-44fc-876f-8c7daef4ec5d")
 			(effects
@@ -4643,6 +4643,7 @@
 		(property "Value" "12V IN"
 			(at 1.25 4.6 90)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "0c4e8534-6051-491e-9b42-008113cfa400")
 			(effects
 				(font
@@ -5344,7 +5345,7 @@
 		(uuid "8bad87d9-c7d6-45c3-8d05-78f67b31a08a")
 		(at 78.87 123.2351 90)
 		(tags "TSR 1-2433 ")
-		(property "Reference" "U2"
+		(property "Reference" "TSR_1-2433"
 			(at 2.5551 -3.278 90)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -9677,6 +9678,18 @@
 			(layer "F.Fab")
 			(uuid "890973ac-dcb5-4f6e-af17-15b266ce6373")
 		)
+		(fp_text user "10K WIREWOUND"
+			(at 21.1 0.05 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "45de2671-7658-479b-b7e6-14f2c5d4f1f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
 		(pad "1" thru_hole circle
 			(at 0 0)
 			(size 2.4 2.4)
@@ -10132,6 +10145,18 @@
 			(fill no)
 			(layer "F.Fab")
 			(uuid "92438f7a-f23c-4f62-b623-4e1d7bcd827e")
+		)
+		(fp_text user "10K WIREWOUND"
+			(at 20.75 0 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "fbbe8785-3603-416c-a890-52682f293baf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
 		)
 		(pad "1" thru_hole circle
 			(at 0 0)
@@ -12157,12 +12182,12 @@
 		(uuid "f8f91b4e-f156-4c7a-8934-64d08b2cba54")
 	)
 	(segment
-		(start 161.87 114.85)
-		(end 157.62 119.1)
+		(start 160.33 116.39)
+		(end 135.84 116.39)
 		(width 1)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "1adbe32d-cb36-4426-ac8b-30e7301cf166")
+		(uuid "26333c8c-0e07-4e55-b6bc-276af090c9b3")
 	)
 	(segment
 		(start 166.77 90.7)
@@ -12170,7 +12195,23 @@
 		(width 1)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "53750efd-42e0-4fad-a257-432529911870")
+		(uuid "28e35658-c96a-42ce-9df0-562cb2975bef")
+	)
+	(segment
+		(start 161.87 114.85)
+		(end 160.33 116.39)
+		(width 1)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "2e700bf5-85dc-4b55-b9c0-0a14ac645f19")
+	)
+	(segment
+		(start 135.84 116.39)
+		(end 133.13 119.1)
+		(width 1)
+		(layer "F.Cu")
+		(net 12)
+		(uuid "58d77947-18b9-4b87-8027-84c756e761f3")
 	)
 	(segment
 		(start 166.77 73.2)
@@ -12178,15 +12219,7 @@
 		(width 1)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "9bac8271-624b-457b-82bd-07ec52546afe")
-	)
-	(segment
-		(start 157.62 119.1)
-		(end 133.13 119.1)
-		(width 1)
-		(layer "F.Cu")
-		(net 12)
-		(uuid "b2617681-7729-4291-893f-a12f7f1fbde3")
+		(uuid "60756ae0-01bd-463e-9038-2c1c12ce7177")
 	)
 	(segment
 		(start 161.87 95.6)
@@ -12194,7 +12227,7 @@
 		(width 1)
 		(layer "F.Cu")
 		(net 12)
-		(uuid "eea75d49-cb93-4a44-899b-ceceffea1280")
+		(uuid "940b63e1-d55d-4c08-a723-78b4a2452db0")
 	)
 	(segment
 		(start 133.11 129.9)
