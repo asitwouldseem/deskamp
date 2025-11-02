@@ -4425,16 +4425,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 92.71) (xy 182.88 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48b6f090-3436-436b-8691-e6289582f290")
-	)
-	(wire
-		(pts
 			(xy 101.6 151.13) (xy 116.84 151.13)
 		)
 		(stroke
@@ -4522,6 +4512,16 @@
 			(type default)
 		)
 		(uuid "5a0ef53a-3bf0-4590-be23-7dcfd47aa14a")
+	)
+	(wire
+		(pts
+			(xy 182.88 38.1) (xy 182.88 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b563879-f345-4cce-be4b-55f6c1f60058")
 	)
 	(wire
 		(pts
@@ -4755,16 +4755,6 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 92.71) (xy 182.88 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b0f3087-c4c0-4f7a-a0be-df0fccadda29")
-	)
-	(wire
-		(pts
 			(xy 31.75 58.42) (xy 46.99 58.42)
 		)
 		(stroke
@@ -4802,6 +4792,16 @@
 			(type default)
 		)
 		(uuid "801d22d1-b89a-4785-a8e6-b2badf23a6b6")
+	)
+	(wire
+		(pts
+			(xy 182.88 92.71) (xy 193.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "802829e6-26ae-411f-a473-b1adc4eea0f9")
 	)
 	(wire
 		(pts
@@ -5572,6 +5572,26 @@
 			(type default)
 		)
 		(uuid "fe1da534-a486-45c3-972b-5eef4da6cf37")
+	)
+	(label "Motor_N"
+		(at 184.15 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8bb57628-1a3d-4798-a465-4f6210e19169")
+	)
+	(label "Motor_P"
+		(at 182.88 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f4a032b3-91b4-473a-b309-473283324045")
 	)
 	(symbol
 		(lib_id "Transistor_BJT:PN2222A")
