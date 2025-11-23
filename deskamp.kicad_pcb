@@ -12170,7 +12170,7 @@
 			)
 		)
 	)
-	(gr_text "ALPS RK27112MC ESP32 PREAMP\nRev. 1.1"
+	(gr_text "ALPS RK27112MC ESP32 PREAMP\nRev. 1.2"
 		(at 214.08 107.41 90)
 		(layer "F.SilkS")
 		(uuid "ac6d81a7-c37f-4ba7-bedb-3dc77f18e304")
