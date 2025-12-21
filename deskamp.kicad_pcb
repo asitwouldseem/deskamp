@@ -12138,15 +12138,15 @@
 		(uuid "79d1f0e7-0a3c-47b0-a87f-358fc00f373f")
 	)
 	(gr_rect
-		(start 66.6 68)
-		(end 218 135.7)
+		(start 66 66)
+		(end 218 136)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill no)
 		(layer "Edge.Cuts")
-		(uuid "8d792699-8c10-43e6-b74a-f04356f9e840")
+		(uuid "34a00ea4-a31f-49d1-879c-b06a8ffee115")
 	)
 	(gr_text "GP14"
 		(at 90.7 133.4 90)
