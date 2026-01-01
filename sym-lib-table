@@ -3,4 +3,5 @@
   (lib (name "esp32-wemos-d1-mini")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad-esp32-wemos-d1-mini/esp32-wemos-d1-mini.kicad_sym")(options "")(descr ""))
   (lib (name "panasonic-tq2")(type "KiCad")(uri "${KIPRJMOD}/libraries/panasonic-tq2/2025-10-05_02-56-43.kicad_sym")(options "")(descr ""))
   (lib (name "tsr-2433")(type "KiCad")(uri "${KIPRJMOD}/libraries/tsr-2433/2025-10-06_03-42-38.kicad_sym")(options "")(descr ""))
+  (lib (name "L9110")(type "Legacy")(uri "${KIPRJMOD}/libraries/l9110/library/L9110.lib")(options "")(descr ""))
 )
