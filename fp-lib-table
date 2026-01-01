@@ -1,9 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "esp32-wemos-d1-mini")(type "KiCad")(uri "${KIPRJMOD}/libraries/kicad-esp32-wemos-d1-mini/esp32-wemos-d1-mini.pretty")(options "")(descr ""))
-  (lib (name "tq2")(type "KiCad")(uri "${KIPRJMOD}/libraries/panasonic-tq2/footprints.pretty")(options "")(descr ""))
-  (lib (name "ds1e-s")(type "KiCad")(uri "${KIPRJMOD}/libraries/panasonic-ds1e-s/footprints.pretty")(options "")(descr ""))
-  (lib (name "s0n06")(type "KiCad")(uri "${KIPRJMOD}/libraries/30N06/footprints.pretty")(options "")(descr ""))
-  (lib (name "tsr-2433")(type "KiCad")(uri "${KIPRJMOD}/libraries/tsr-2433/footprints.pretty")(options "")(descr ""))
-  (lib (name "L9110")(type "KiCad")(uri "${KIPRJMOD}/libraries/l9110/modules/L9110.pretty")(options "")(descr ""))
-)
