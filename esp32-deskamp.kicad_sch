@@ -6357,28 +6357,6 @@
 			)
 		)
 	)
-	(global_label "PWM0"
-		(shape input)
-		(at 267.97 59.69 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2031cd0a-4fcd-4ae9-95db-dbeb76bd3069")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.3375 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Select0"
 		(shape input)
 		(at 179.07 45.72 0)
@@ -6415,28 +6393,6 @@
 		(uuid "258177a2-d9e3-4fc3-af67-a26950157b48")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.3451 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM1"
-		(shape input)
-		(at 267.97 57.15 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2d0e93d5-b83d-4913-b49d-e596146f9856")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.3375 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6534,6 +6490,28 @@
 			)
 		)
 	)
+	(global_label "PWM0"
+		(shape input)
+		(at 267.97 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "571cac00-0d64-4f98-baf9-c1a838dbf27b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.3375 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Select0"
 		(shape input)
 		(at 241.3 135.89 180)
@@ -6553,6 +6531,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM1"
+		(shape input)
+		(at 267.97 59.69 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b220044-d934-4119-99ac-9c51f6fa6f28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.3375 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)

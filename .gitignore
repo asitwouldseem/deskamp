@@ -41,3 +41,4 @@ fp-info-cache
 .DS_Store
 /libraries
 deskamp.kicad_dru
+esp32-deskamp.kicad_dru
