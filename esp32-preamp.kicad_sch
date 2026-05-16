@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "ef07d777-d2fe-4af3-a209-ac0ed59e2bee")
 	(paper "A4")
+	(title_block
+		(title "ESP32 Volume Control")
+		(date "2026-05-16")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x02_Pin"
 			(pin_names
@@ -4241,7 +4246,7 @@
 		(uuid "0ce39644-c689-4090-94ab-9c3769e4bbbd")
 	)
 	(junction
-		(at 276.86 100.33)
+		(at 269.24 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "103edb04-7707-4eaf-ab4d-29e217a40a8d")
@@ -4319,7 +4324,7 @@
 		(uuid "65b5b48a-10bd-43e6-8e2a-f0d2305fa145")
 	)
 	(junction
-		(at 276.86 102.87)
+		(at 269.24 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71a7a5a3-4760-4d84-817a-ca13e5cd7e54")
@@ -4450,7 +4455,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 100.33) (xy 276.86 100.33)
+			(xy 255.27 102.87) (xy 269.24 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4570,7 +4575,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 102.87) (xy 276.86 102.87)
+			(xy 255.27 105.41) (xy 269.24 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4930,7 +4935,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 97.79) (xy 276.86 100.33)
+			(xy 269.24 100.33) (xy 269.24 102.87)
 		)
 		(stroke
 			(width 0)
@@ -5150,7 +5155,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 100.33) (xy 276.86 102.87)
+			(xy 269.24 102.87) (xy 269.24 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5310,7 +5315,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 95.25) (xy 276.86 95.25)
+			(xy 255.27 97.79) (xy 269.24 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5580,7 +5585,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 95.25) (xy 276.86 87.63)
+			(xy 269.24 97.79) (xy 269.24 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5600,7 +5605,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 92.71) (xy 270.51 87.63)
+			(xy 262.89 95.25) (xy 262.89 90.17)
 		)
 		(stroke
 			(width 0)
@@ -5720,7 +5725,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 102.87) (xy 276.86 109.22)
+			(xy 269.24 105.41) (xy 269.24 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5790,7 +5795,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 97.79) (xy 276.86 97.79)
+			(xy 255.27 100.33) (xy 269.24 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5860,7 +5865,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 92.71) (xy 270.51 92.71)
+			(xy 255.27 95.25) (xy 262.89 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5910,7 +5915,7 @@
 	)
 	(global_label "ADC"
 		(shape input)
-		(at 236.22 130.81 180)
+		(at 228.6 133.35 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5920,7 +5925,7 @@
 		)
 		(uuid "24f90a43-52da-4a26-8e05-2c5eb265faaa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.6062 130.81 0)
+			(at 221.9862 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6030,7 +6035,7 @@
 	)
 	(global_label "MOTOR_B"
 		(shape input)
-		(at 236.22 97.79 180)
+		(at 228.6 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6040,7 +6045,7 @@
 		)
 		(uuid "47f8d9c8-37d1-483f-ba4e-79d83f89d45b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.6472 97.79 0)
+			(at 217.0272 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6102,7 +6107,7 @@
 	)
 	(global_label "MOTOR_A"
 		(shape input)
-		(at 236.22 92.71 180)
+		(at 228.6 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6112,7 +6117,7 @@
 		)
 		(uuid "5dd141b4-159c-4ee4-960c-9ccd6e26ab1d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.8286 92.71 0)
+			(at 217.2086 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6220,7 +6225,7 @@
 			)
 		)
 	)
-	(global_label "AMP_SLEEP"
+	(global_label "AMP_PWR"
 		(shape input)
 		(at 109.22 118.11 0)
 		(fields_autoplaced yes)
@@ -6232,7 +6237,7 @@
 		)
 		(uuid "95411a3d-8b84-450a-9995-7e6b53d10f56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.7884 118.11 0)
+			(at 120.9742 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6510,7 +6515,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 276.86 87.63 0)
+		(at 269.24 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6521,7 +6526,7 @@
 		(fields_autoplaced yes)
 		(uuid "00e118c8-a8f0-4318-809e-6ce485839f9a")
 		(property "Reference" "#PWR028"
-			(at 276.86 91.44 0)
+			(at 269.24 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6532,7 +6537,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 276.86 82.55 0)
+			(at 269.24 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6542,7 +6547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 87.63 0)
+			(at 269.24 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6553,7 +6558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 87.63 0)
+			(at 269.24 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6564,7 +6569,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 276.86 87.63 0)
+			(at 269.24 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6912,7 +6917,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19b4608f-f1f5-4eef-900f-811935eb7c57")
-		(property "Reference" "R1"
+		(property "Reference" "R5"
 			(at 133.35 159.004 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6974,7 +6979,7 @@
 		(instances
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
-					(reference "R1")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7486,7 +7491,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "307ed9c1-dd99-44d7-88b4-5824521c478d")
-		(property "Reference" "R6"
+		(property "Reference" "R4"
 			(at 105.41 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7548,7 +7553,7 @@
 		(instances
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7793,7 +7798,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 276.86 109.22 0)
+		(at 269.24 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7804,7 +7809,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ef478b1-36d7-4a6e-9261-b5f9787a2c3d")
 		(property "Reference" "#PWR02"
-			(at 276.86 115.57 0)
+			(at 269.24 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7815,7 +7820,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 276.86 113.03 0)
+			(at 269.24 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7825,7 +7830,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 109.22 0)
+			(at 269.24 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7836,7 +7841,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 109.22 0)
+			(at 269.24 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7847,7 +7852,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 276.86 109.22 0)
+			(at 269.24 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8478,7 +8483,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c0d999b-1a60-4ab5-9a9e-82617e3eff55")
-		(property "Reference" "J9"
+		(property "Reference" "J10"
 			(at 139.7 89.916 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8545,7 +8550,7 @@
 		(instances
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
-					(reference "J9")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -9382,7 +9387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "76280301-9bde-45be-bfcc-c2c32a886225")
-		(property "Reference" "Q3"
+		(property "Reference" "Q2"
 			(at 90.17 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9472,7 +9477,7 @@
 		(instances
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
-					(reference "Q3")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -10231,7 +10236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8ee8215d-92b2-4487-9cd7-e432d8063522")
-		(property "Reference" "Q5"
+		(property "Reference" "Q4"
 			(at 90.17 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10321,7 +10326,7 @@
 		(instances
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
-					(reference "Q5")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -10339,7 +10344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "960e27cb-4097-4f93-8e51-e7dbdb3bc5df")
-		(property "Reference" "Q4"
+		(property "Reference" "Q3"
 			(at 90.17 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10429,7 +10434,7 @@
 		(instances
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
-					(reference "Q4")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -10593,7 +10598,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 270.51 87.63 0)
+		(at 262.89 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10604,7 +10609,7 @@
 		(fields_autoplaced yes)
 		(uuid "9aaef539-73cf-4998-865d-4f5a7d4701c8")
 		(property "Reference" "#PWR01"
-			(at 270.51 91.44 0)
+			(at 262.89 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10615,7 +10620,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 270.51 82.55 0)
+			(at 262.89 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10625,7 +10630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 87.63 0)
+			(at 262.89 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10636,7 +10641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 87.63 0)
+			(at 262.89 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10647,7 +10652,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 270.51 87.63 0)
+			(at 262.89 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10758,7 +10763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9fdbe2f2-0cb7-4340-8d78-780a19f60ab6")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 133.35 166.878 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10820,7 +10825,7 @@
 		(instances
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10915,7 +10920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3e4472c-ff64-4922-99e1-8c09b394099f")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 90.17 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11005,7 +11010,7 @@
 		(instances
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -11513,7 +11518,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AMP SLEEP"
+		(property "Value" "AMP PWR"
 			(at 25.908 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11665,7 +11670,7 @@
 	)
 	(symbol
 		(lib_id "esp32-d1-mini:esp32-wemos-d1-mini")
-		(at 248.92 90.17 0)
+		(at 241.3 92.71 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11676,7 +11681,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6ae63d7-be88-4308-b20d-c411c50cff67")
 		(property "Reference" "U1"
-			(at 249.555 86.36 0)
+			(at 241.935 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11686,7 +11691,7 @@
 			)
 		)
 		(property "Value" "ESP32 D1 Mini"
-			(at 249.555 88.9 0)
+			(at 241.935 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11696,7 +11701,7 @@
 			)
 		)
 		(property "Footprint" "esp32-wemos-d1-mini:esp32-wemos-d1-mini"
-			(at 252.73 87.63 0)
+			(at 245.11 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11707,7 +11712,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 252.73 87.63 0)
+			(at 245.11 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11718,7 +11723,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 90.17 0)
+			(at 241.3 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11953,7 +11958,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da9d263d-136c-46d8-ace4-ed76f11ec833")
-		(property "Reference" "R4"
+		(property "Reference" "R2"
 			(at 105.41 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12015,7 +12020,7 @@
 		(instances
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
-					(reference "R4")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -12110,7 +12115,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de84838f-eaa9-41aa-81ba-4d416582a535")
-		(property "Reference" "J7"
+		(property "Reference" "J8"
 			(at 139.7 24.892 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12174,7 +12179,7 @@
 		(instances
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
-					(reference "J7")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -12192,7 +12197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0f13c31-deea-4972-93be-c263d0284ac7")
-		(property "Reference" "R3"
+		(property "Reference" "R1"
 			(at 105.41 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12254,7 +12259,7 @@
 		(instances
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
-					(reference "R3")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -12271,7 +12276,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e45af01f-1909-4b94-9205-e98d7a8169db")
-		(property "Reference" "J8"
+		(property "Reference" "J9"
 			(at 139.7 62.738 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12338,7 +12343,7 @@
 		(instances
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
-					(reference "J8")
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -12356,7 +12361,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6368ebc-9a75-4ea8-8610-5024f950ca6b")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 105.41 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12418,7 +12423,7 @@
 		(instances
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
