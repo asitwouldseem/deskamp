@@ -4530,7 +4530,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 143.51) (xy 151.13 148.59)
+			(xy 151.13 144.78) (xy 151.13 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5030,7 +5030,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 148.59) (xy 143.51 143.51)
+			(xy 143.51 148.59) (xy 143.51 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5067,16 +5067,6 @@
 			(type default)
 		)
 		(uuid "88ee984f-f679-418e-b2ed-655781443156")
-	)
-	(wire
-		(pts
-			(xy 143.51 143.51) (xy 151.13 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "897763ed-9502-4b47-94e6-d946e2c39da6")
 	)
 	(wire
 		(pts
@@ -12387,6 +12377,85 @@
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 144.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e6e768db-da44-4ecc-b64d-98f2e6fdfd1c")
+		(property "Reference" "R7"
+			(at 147.32 140.208 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 147.32 141.986 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 146.558 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e5f15f49-fdbd-49b3-89a7-03dcbc8380af")
+		)
+		(pin "2"
+			(uuid "a0fdafd2-fe1e-4e53-917d-8891cf6ccca1")
+		)
+		(instances
+			(project "esp32-preamp"
+				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
+					(reference "R7")
 					(unit 1)
 				)
 			)
