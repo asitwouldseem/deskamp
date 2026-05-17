@@ -4795,8 +4795,8 @@
 		(uuid "392b6a8d-8b45-4bac-855a-92b44b6fdc69")
 	)
 	(rectangle
-		(start 187.96 15.24)
-		(end 283.21 72.39)
+		(start 184.15 13.97)
+		(end 283.21 73.66)
 		(stroke
 			(width 0)
 			(type default)
@@ -4840,13 +4840,19 @@
 	)
 	(text "POWER"
 		(exclude_from_sim no)
-		(at 235.712 70.866 0)
+		(at 233.934 71.882 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "fc9d14b2-5025-44cc-a333-40cc67d534c7")
+	)
+	(junction
+		(at 247.65 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09a46e76-53d0-4ca5-b8e1-677de976a81b")
 	)
 	(junction
 		(at 82.55 151.13)
@@ -5005,7 +5011,7 @@
 		(uuid "859aca51-2793-471c-8aca-f00bfc6d8976")
 	)
 	(junction
-		(at 226.06 25.4)
+		(at 222.25 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85c4ff88-37ae-47a8-8344-ecda240612ca")
@@ -5017,7 +5023,7 @@
 		(uuid "8cd30fb5-902a-4e64-aada-a044c95ae3fb")
 	)
 	(junction
-		(at 195.58 25.4)
+		(at 191.77 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9125da67-ebee-41ea-8306-3372f0a520b0")
@@ -5041,7 +5047,7 @@
 		(uuid "aa45c032-772a-47e1-b0f8-2bf8b9d8b7f7")
 	)
 	(junction
-		(at 226.06 30.48)
+		(at 222.25 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa581db8-6b02-4027-90fd-8632e9b4cdd0")
@@ -5089,6 +5095,12 @@
 		(uuid "e019bdb7-ca4c-4346-9a17-5a0c176ef657")
 	)
 	(junction
+		(at 273.05 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f97e12b9-0415-4a99-adde-7a740b2b3b7f")
+	)
+	(junction
 		(at 107.95 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5105,7 +5117,7 @@
 		(uuid "07bb270c-dd7d-48fa-9911-c1b6505957de")
 	)
 	(no_connect
-		(at 254 55.88)
+		(at 250.19 54.61)
 		(uuid "16af2709-e5aa-4a86-8eab-d5c311903dcd")
 	)
 	(no_connect
@@ -5157,7 +5169,7 @@
 		(uuid "ad5b9896-448f-4090-afd5-fb17b6d9457f")
 	)
 	(no_connect
-		(at 274.32 55.88)
+		(at 270.51 54.61)
 		(uuid "b8f09d45-7c8f-4b7f-be49-5645acd12205")
 	)
 	(no_connect
@@ -5226,7 +5238,7 @@
 	)
 	(wire
 		(pts
-			(xy 274.32 53.34) (xy 276.86 53.34)
+			(xy 270.51 52.07) (xy 273.05 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5326,7 +5338,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 35.56) (xy 261.62 35.56)
+			(xy 260.35 34.29) (xy 257.81 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5346,7 +5358,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 30.48) (xy 226.06 25.4)
+			(xy 222.25 29.21) (xy 222.25 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5406,7 +5418,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 30.48) (xy 229.87 30.48)
+			(xy 222.25 29.21) (xy 226.06 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5446,7 +5458,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 40.64) (xy 264.16 35.56)
+			(xy 260.35 39.37) (xy 260.35 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5476,7 +5488,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 38.1) (xy 210.82 43.18)
+			(xy 207.01 36.83) (xy 207.01 41.91)
 		)
 		(stroke
 			(width 0)
@@ -5536,7 +5548,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 25.4) (xy 195.58 24.13)
+			(xy 191.77 24.13) (xy 191.77 22.86)
 		)
 		(stroke
 			(width 0)
@@ -5576,7 +5588,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 40.64) (xy 264.16 40.64)
+			(xy 246.38 39.37) (xy 260.35 39.37)
 		)
 		(stroke
 			(width 0)
@@ -5636,7 +5648,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 53.34) (xy 251.46 30.48)
+			(xy 247.65 52.07) (xy 247.65 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5716,13 +5728,23 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 53.34) (xy 201.93 53.34)
+			(xy 191.77 52.07) (xy 198.12 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4bc36058-c890-4b23-b04d-ad79aa054b91")
+	)
+	(wire
+		(pts
+			(xy 247.65 52.07) (xy 247.65 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c36bd3f-08e6-46be-83bc-e9c3227ad0a5")
 	)
 	(wire
 		(pts
@@ -5776,7 +5798,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 63.5) (xy 264.16 64.77)
+			(xy 260.35 62.23) (xy 260.35 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5936,7 +5958,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 53.34) (xy 276.86 35.56)
+			(xy 273.05 52.07) (xy 273.05 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5996,13 +6018,23 @@
 	)
 	(wire
 		(pts
-			(xy 254 53.34) (xy 251.46 53.34)
+			(xy 250.19 52.07) (xy 247.65 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7191a4bf-5d06-4372-8327-e33ac9590574")
+	)
+	(wire
+		(pts
+			(xy 273.05 52.07) (xy 273.05 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728dd586-5cb1-46b5-a9e0-67cb5c18e702")
 	)
 	(wire
 		(pts
@@ -6146,7 +6178,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 53.34) (xy 201.93 46.99)
+			(xy 198.12 52.07) (xy 198.12 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6186,7 +6218,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 30.48) (xy 250.19 30.48)
+			(xy 247.65 29.21) (xy 246.38 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6356,7 +6388,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 55.88) (xy 201.93 60.96)
+			(xy 198.12 54.61) (xy 198.12 59.69)
 		)
 		(stroke
 			(width 0)
@@ -6556,7 +6588,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 25.4) (xy 226.06 24.13)
+			(xy 222.25 24.13) (xy 222.25 22.86)
 		)
 		(stroke
 			(width 0)
@@ -6646,7 +6678,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 35.56) (xy 254 35.56)
+			(xy 246.38 34.29) (xy 250.19 34.29)
 		)
 		(stroke
 			(width 0)
@@ -6696,7 +6728,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 55.88) (xy 201.93 55.88)
+			(xy 191.77 54.61) (xy 198.12 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6706,7 +6738,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 45.72) (xy 240.03 50.8)
+			(xy 236.22 44.45) (xy 236.22 49.53)
 		)
 		(stroke
 			(width 0)
@@ -6716,7 +6748,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 30.48) (xy 195.58 25.4)
+			(xy 191.77 29.21) (xy 191.77 24.13)
 		)
 		(stroke
 			(width 0)
@@ -6826,7 +6858,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 30.48) (xy 195.58 30.48)
+			(xy 196.85 29.21) (xy 191.77 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6936,7 +6968,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 30.48) (xy 226.06 30.48)
+			(xy 217.17 29.21) (xy 222.25 29.21)
 		)
 		(stroke
 			(width 0)
@@ -8286,7 +8318,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 201.93 60.96 0)
+		(at 198.12 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8297,7 +8329,7 @@
 		(fields_autoplaced yes)
 		(uuid "111dd25d-c051-44a3-8411-639cf4d83e72")
 		(property "Reference" "#PWR034"
-			(at 201.93 67.31 0)
+			(at 198.12 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8308,7 +8340,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 201.93 64.77 0)
+			(at 198.12 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8318,7 +8350,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 60.96 0)
+			(at 198.12 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8329,7 +8361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 60.96 0)
+			(at 198.12 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8340,7 +8372,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 201.93 60.96 0)
+			(at 198.12 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8527,7 +8559,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 226.06 25.4 90)
+		(at 222.25 24.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8538,7 +8570,7 @@
 		(fields_autoplaced yes)
 		(uuid "21c64ace-ffb6-46ff-8d61-64d84f3cf799")
 		(property "Reference" "#FLG02"
-			(at 224.155 25.4 0)
+			(at 220.345 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8549,7 +8581,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 222.25 25.3999 90)
+			(at 218.44 24.1299 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8561,7 +8593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 25.4 0)
+			(at 222.25 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8572,7 +8604,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 25.4 0)
+			(at 222.25 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8583,7 +8615,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 226.06 25.4 0)
+			(at 222.25 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9756,7 +9788,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 195.58 24.13 0)
+		(at 191.77 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9767,7 +9799,7 @@
 		(fields_autoplaced yes)
 		(uuid "44303915-2619-4ccc-bcc0-910fd328c578")
 		(property "Reference" "#PWR03"
-			(at 195.58 27.94 0)
+			(at 191.77 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9778,7 +9810,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 195.58 19.05 0)
+			(at 191.77 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9788,7 +9820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 24.13 0)
+			(at 191.77 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9799,7 +9831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 24.13 0)
+			(at 191.77 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9810,7 +9842,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 195.58 24.13 0)
+			(at 191.77 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9834,7 +9866,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 240.03 50.8 0)
+		(at 236.22 49.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9845,7 +9877,7 @@
 		(fields_autoplaced yes)
 		(uuid "4e1a7ead-0b58-497f-9490-3b8cea06fe6b")
 		(property "Reference" "#PWR08"
-			(at 240.03 57.15 0)
+			(at 236.22 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9856,7 +9888,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 240.03 54.61 0)
+			(at 236.22 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9866,7 +9898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 50.8 0)
+			(at 236.22 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9877,7 +9909,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 50.8 0)
+			(at 236.22 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9888,7 +9920,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 240.03 50.8 0)
+			(at 236.22 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9912,7 +9944,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 226.06 24.13 0)
+		(at 222.25 22.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9923,7 +9955,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f02a5ab-0432-44ac-a1d7-9981a31dded6")
 		(property "Reference" "#PWR06"
-			(at 226.06 27.94 0)
+			(at 222.25 26.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9934,7 +9966,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 226.06 19.05 0)
+			(at 222.25 17.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9944,7 +9976,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 24.13 0)
+			(at 222.25 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9955,7 +9987,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 24.13 0)
+			(at 222.25 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9966,7 +9998,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 226.06 24.13 0)
+			(at 222.25 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9983,6 +10015,88 @@
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 273.05 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51429d50-5f2a-4d2d-9211-40624ac31461")
+		(property "Reference" "C3"
+			(at 276.86 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 276.86 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 274.0152 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 273.05 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "eb20eb9b-f052-4fde-88a4-9e56d1aaae9f")
+		)
+		(pin "1"
+			(uuid "d15717d7-8db8-438e-b1b3-63cb0b824fb1")
+		)
+		(instances
+			(project "esp32-preamp"
+				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -10311,7 +10425,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 210.82 43.18 0)
+		(at 207.01 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10322,7 +10436,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a20715c-def0-49b6-9b2f-e887454f3ba3")
 		(property "Reference" "#PWR04"
-			(at 210.82 49.53 0)
+			(at 207.01 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10333,7 +10447,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 210.82 46.99 0)
+			(at 207.01 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10343,7 +10457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 43.18 0)
+			(at 207.01 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10354,7 +10468,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 43.18 0)
+			(at 207.01 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10365,7 +10479,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 210.82 43.18 0)
+			(at 207.01 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10681,7 +10795,7 @@
 	)
 	(symbol
 		(lib_id "power:-5V")
-		(at 276.86 35.56 0)
+		(at 273.05 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10692,7 +10806,7 @@
 		(fields_autoplaced yes)
 		(uuid "651e5635-a7ff-4bdf-9d02-550b66216b66")
 		(property "Reference" "#PWR09"
-			(at 276.86 39.37 0)
+			(at 273.05 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10703,7 +10817,7 @@
 			)
 		)
 		(property "Value" "-5V"
-			(at 276.86 30.48 0)
+			(at 273.05 29.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10713,7 +10827,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 35.56 0)
+			(at 273.05 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10724,7 +10838,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 35.56 0)
+			(at 273.05 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10735,7 +10849,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"-5V\""
-			(at 276.86 35.56 0)
+			(at 273.05 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10843,7 +10957,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_SwitchedCapacitor:TPS60402DBV")
-		(at 240.03 35.56 0)
+		(at 236.22 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10854,7 +10968,7 @@
 		(fields_autoplaced yes)
 		(uuid "6851b5a4-d5d6-43b5-a365-a1fbc0e321ce")
 		(property "Reference" "U3"
-			(at 240.03 22.86 0)
+			(at 236.22 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10864,7 +10978,7 @@
 			)
 		)
 		(property "Value" "TPS60402DBV"
-			(at 240.03 25.4 0)
+			(at 236.22 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10874,7 +10988,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 240.03 22.86 0)
+			(at 236.22 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10885,7 +10999,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps60401.pdf"
-			(at 240.03 58.42 0)
+			(at 236.22 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10896,7 +11010,7 @@
 			)
 		)
 		(property "Description" "Unregulated 60-mA Charge Pump Voltage Inverter with Fixed Switching Frequency 50 kHz, SOT-23-5"
-			(at 240.03 35.56 0)
+			(at 236.22 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11063,7 +11177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dd6610d-e477-48ff-8997-14e1be1e64c2")
-		(property "Reference" "C3"
+		(property "Reference" "C11"
 			(at 125.73 34.6709 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11127,7 +11241,7 @@
 		(instances
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
-					(reference "C3")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11418,7 +11532,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 190.5 53.34 0)
+		(at 186.69 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11428,7 +11542,7 @@
 		(dnp no)
 		(uuid "78d85348-ddc8-4c57-8096-d30e1e41b1c2")
 		(property "Reference" "J1"
-			(at 190.5 47.244 0)
+			(at 186.69 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11439,7 +11553,7 @@
 			)
 		)
 		(property "Value" "PWR IN"
-			(at 190.5 49.784 0)
+			(at 186.69 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11450,7 +11564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 53.34 0)
+			(at 186.69 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11461,7 +11575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 53.34 0)
+			(at 186.69 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11472,7 +11586,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 190.5 53.34 0)
+			(at 186.69 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12533,7 +12647,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 201.93 46.99 0)
+		(at 198.12 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12544,7 +12658,7 @@
 		(fields_autoplaced yes)
 		(uuid "9878a3ef-dcf4-40b2-aedd-65ed806d3e9f")
 		(property "Reference" "#PWR033"
-			(at 201.93 50.8 0)
+			(at 198.12 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12555,7 +12669,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 201.93 41.91 0)
+			(at 198.12 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12565,7 +12679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 201.93 46.99 0)
+			(at 198.12 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12576,7 +12690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 46.99 0)
+			(at 198.12 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12587,7 +12701,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 201.93 46.99 0)
+			(at 198.12 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13005,7 +13119,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:TPS72301DBV")
-		(at 264.16 55.88 0)
+		(at 260.35 54.61 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13016,7 +13130,7 @@
 		(fields_autoplaced yes)
 		(uuid "a58d4b97-98ae-48a4-8afd-aeb983f3fa25")
 		(property "Reference" "U4"
-			(at 264.16 45.72 0)
+			(at 260.35 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13026,7 +13140,7 @@
 			)
 		)
 		(property "Value" "TPS72301DBV"
-			(at 264.16 48.26 0)
+			(at 260.35 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13036,7 +13150,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 264.16 45.72 0)
+			(at 260.35 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13048,7 +13162,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps723.pdf"
-			(at 264.16 73.66 0)
+			(at 260.35 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13059,7 +13173,7 @@
 			)
 		)
 		(property "Description" "200-mA, Low-Noise, High-PSRR, Negative Output Low-Dropout Linear Regulator, Adjustable Output (-1.2 V to -10 V), SOT-23-5"
-			(at 264.16 55.88 0)
+			(at 260.35 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13088,6 +13202,84 @@
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
 					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 273.05 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acc8cb08-f67f-4057-9160-9d9821352142")
+		(property "Reference" "#PWR038"
+			(at 273.05 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 273.05 71.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 273.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 273.05 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf77f70e-975f-4040-aa1c-e7e319d2e96f")
+		)
+		(instances
+			(project "esp32-preamp"
+				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -13196,6 +13388,88 @@
 			(project "esp32-preamp"
 				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 247.65 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b652edfe-a53c-4399-a147-e5d4c1e569aa")
+		(property "Reference" "C2"
+			(at 251.46 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 251.46 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.6152 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 247.65 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c73686c2-3b92-4232-b2f3-e6a24bf0d1d6")
+		)
+		(pin "1"
+			(uuid "8e14fb3f-f8aa-41e4-9e87-1fb6844ae8f4")
+		)
+		(instances
+			(project "esp32-preamp"
+				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -13362,7 +13636,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 257.81 35.56 90)
+		(at 254 34.29 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13373,7 +13647,7 @@
 		(fields_autoplaced yes)
 		(uuid "be898127-18a4-41dc-ac8a-8451dcb9ed41")
 		(property "Reference" "C1"
-			(at 257.81 27.94 90)
+			(at 254 26.67 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13383,7 +13657,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 257.81 30.48 90)
+			(at 254 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13393,7 +13667,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 34.5948 0)
+			(at 257.81 33.3248 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13404,7 +13678,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 35.56 0)
+			(at 254 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13415,7 +13689,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 257.81 35.56 0)
+			(at 254 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14267,6 +14541,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDD")
+		(at 247.65 67.3042 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d5933ecc-7282-4560-bbf9-e69562c0dce1")
+		(property "Reference" "#PWR013"
+			(at 247.65 73.6542 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 247.65 71.1142 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 67.3042 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 67.3042 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 247.65 67.3042 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4ce998a-2764-4b2e-a70e-4948d710d8f7")
+		)
+		(instances
+			(project "esp32-preamp"
+				(path "/ef07d777-d2fe-4af3-a209-ac0ed59e2bee"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "esp32-d1-mini:esp32-wemos-d1-mini")
 		(at 241.3 92.71 0)
 		(unit 1)
@@ -14704,7 +15056,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 195.58 25.4 90)
+		(at 191.77 24.13 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14715,7 +15067,7 @@
 		(fields_autoplaced yes)
 		(uuid "de3fc929-f224-4650-abf9-b1bc7f992a51")
 		(property "Reference" "#FLG01"
-			(at 193.675 25.4 0)
+			(at 189.865 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14726,7 +15078,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 191.77 25.3999 90)
+			(at 187.96 24.1299 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14738,7 +15090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 25.4 0)
+			(at 191.77 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14749,7 +15101,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 25.4 0)
+			(at 191.77 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14760,7 +15112,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 195.58 25.4 0)
+			(at 191.77 24.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15188,7 +15540,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDD")
-		(at 264.16 64.77 0)
+		(at 260.35 67.31 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15199,7 +15551,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7f84e5f-147c-4c1d-97a5-ceffeceafed6")
 		(property "Reference" "#PWR012"
-			(at 264.16 71.12 0)
+			(at 260.35 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15210,7 +15562,7 @@
 			)
 		)
 		(property "Value" "GNDD"
-			(at 264.16 68.58 0)
+			(at 260.35 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15220,7 +15572,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 64.77 0)
+			(at 260.35 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15231,7 +15583,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 64.77 0)
+			(at 260.35 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15242,7 +15594,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 264.16 64.77 0)
+			(at 260.35 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15266,7 +15618,7 @@
 	)
 	(symbol
 		(lib_id "Converter_DCDC:TSR0.5-2450")
-		(at 210.82 33.02 0)
+		(at 207.01 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15277,7 +15629,7 @@
 		(fields_autoplaced yes)
 		(uuid "f09c7762-2431-4242-bb14-7e0a78769e23")
 		(property "Reference" "U2"
-			(at 210.82 22.86 0)
+			(at 207.01 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15287,7 +15639,7 @@
 			)
 		)
 		(property "Value" "TSR0.5-2450"
-			(at 210.82 25.4 0)
+			(at 207.01 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15297,7 +15649,7 @@
 			)
 		)
 		(property "Footprint" "Converter_DCDC:Converter_DCDC_TRACO_TSR0.5-24xx_TSR0.5-24xxx_THT"
-			(at 210.82 39.116 0)
+			(at 207.01 37.846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15309,7 +15661,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.tracopower.com/products/tsr0.5.pdf"
-			(at 210.82 36.83 0)
+			(at 207.01 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15320,7 +15672,7 @@
 			)
 		)
 		(property "Description" "0.5A step-down regulator, fixed 5V output voltage, 6.5-32V input voltage, TO-220 compatible LM78xx replacement, SIP-3"
-			(at 210.82 33.02 0)
+			(at 207.01 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
