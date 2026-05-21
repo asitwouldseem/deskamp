@@ -1455,12 +1455,13 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "21d4627e-bca2-40fb-b2e8-915f71a797f0")
-		(at 219.56 78.6)
+		(at 196.44 71.5)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J1"
 			(at 2.5 -3.55 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b12efee2-c38c-450e-8356-374e5fb22c87")
 			(effects
 				(font
@@ -1471,7 +1472,7 @@
 		)
 		(property "Value" "INPUT 1"
 			(at 2.5 4.6 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "4df9c912-a972-441e-a902-0cf5ef596d2e")
 			(effects
 				(font
@@ -1753,7 +1754,7 @@
 	(footprint "Panasonic TQ2:RELAY_TQ2_PAN"
 		(layer "F.Cu")
 		(uuid "2920fb1b-0959-4eb9-982f-3b5a4d7d2348")
-		(at 255.929 41.88)
+		(at 260.429 41.88)
 		(tags "TQ2-12V ")
 		(property "Reference" "K4"
 			(at 3.81 5.0673 0)
@@ -2351,7 +2352,7 @@
 	(footprint "Panasonic TQ2:RELAY_TQ2_PAN"
 		(layer "F.Cu")
 		(uuid "2fd37e17-6718-4cce-b619-e2a2f3590071")
-		(at 243.88 41.88)
+		(at 246.5 41.88)
 		(tags "TQ2-12V ")
 		(property "Reference" "K3"
 			(at 3.81 5.0673 0)
@@ -4286,12 +4287,13 @@
 	(footprint "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "5010df4a-cb51-463a-97b9-db4bda9ed499")
-		(at 223.975 119.375)
+		(at 222.5 82)
 		(descr "JST XH series connector, B2B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J10"
 			(at 1.25 -3.55 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3572c22b-a8fb-4246-8402-aace2648d160")
 			(effects
 				(font
@@ -4302,7 +4304,7 @@
 		)
 		(property "Value" "LFE"
 			(at 1.25 4.6 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "906e8a36-c0cb-4711-ad31-707780fb7565")
 			(effects
 				(font
@@ -5796,12 +5798,13 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "731db11b-e230-4a6c-9585-03cb4075b6f8")
-		(at 219.56 86.4)
+		(at 209.5 71.5)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J2"
 			(at 2.5 -3.55 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c1aa0e8e-16d5-4438-8048-1ed713c3801b")
 			(effects
 				(font
@@ -5812,7 +5815,7 @@
 		)
 		(property "Value" "INPUT 2"
 			(at 2.5 4.6 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "a8cd04bb-5304-462c-b7d5-57f1d7f0d228")
 			(effects
 				(font
@@ -6392,7 +6395,7 @@
 	(footprint "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm"
 		(layer "F.Cu")
 		(uuid "7df3cb4e-4815-48ec-be2c-e30c3fda9294")
-		(at 210.75 42.5)
+		(at 211.5 36)
 		(descr "C, Radial series, Radial, pin pitch=1.50mm, diameter=4mm, height=5mm, Non-Polar Electrolytic Capacitor")
 		(tags "C Radial series Radial pin pitch 1.50mm diameter 4mm height 5mm Non-Polar Electrolytic Capacitor")
 		(property "Reference" "C8"
@@ -8934,7 +8937,7 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "9f0a94cf-befc-47c8-8d6e-1b02f025ebcc")
-		(at 220.92 21.25)
+		(at 216.92 36)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D1"
@@ -9229,7 +9232,7 @@
 	(footprint "Panasonic TQ2:RELAY_TQ2_PAN"
 		(layer "F.Cu")
 		(uuid "a0d8ef77-716b-4885-adf2-b32836442fb8")
-		(at 219.782 41.88)
+		(at 218.5 42)
 		(tags "TQ2-12V ")
 		(property "Reference" "K1"
 			(at 3.81 5.0673 0)
@@ -9669,7 +9672,7 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "a6b3e810-83a5-4b1e-97ef-83d1a959fdcd")
-		(at 220.92 34)
+		(at 258.92 36)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D4"
@@ -9964,12 +9967,13 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "a79161e5-a729-4e86-aa8a-c5afa41a21c9")
-		(at 221.5 104.475)
+		(at 209.5 82)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J11"
 			(at 2.5 -3.55 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "30b28dd6-00eb-407a-8c5d-3a8fdfedbc84")
 			(effects
 				(font
@@ -9980,7 +9984,7 @@
 		)
 		(property "Value" "OUT"
 			(at 2.5 4.6 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "51cb61b2-e211-4aa7-8dce-f0f6cafd1450")
 			(effects
 				(font
@@ -12873,7 +12877,7 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "c83fe240-f064-4907-89ce-576d2166a46a")
-		(at 220.92 25.5)
+		(at 230.92 36)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D2"
@@ -13168,7 +13172,7 @@
 	(footprint "Panasonic TQ2:RELAY_TQ2_PAN"
 		(layer "F.Cu")
 		(uuid "d463dd9b-82cd-48a2-bb8e-8a700a266747")
-		(at 231.831 41.88)
+		(at 232.38 41.88)
 		(tags "TQ2-12V ")
 		(property "Reference" "K2"
 			(at 3.81 5.0673 0)
@@ -13608,12 +13612,13 @@
 	(footprint "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
 		(layer "F.Cu")
 		(uuid "d5dc5763-4ced-4567-b41b-78c48f83501b")
-		(at 219.56 94.2)
+		(at 222.44 71.5)
 		(descr "JST XH series connector, B3B-XH-A (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf)")
 		(tags "connector JST XH vertical")
 		(property "Reference" "J3"
 			(at 2.5 -3.55 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1820a09e-3313-4f79-b7f2-f14f9e48e6d3")
 			(effects
 				(font
@@ -13624,7 +13629,7 @@
 		)
 		(property "Value" "INPUT 3"
 			(at 2.5 4.6 0)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "e475a0ba-da70-4a5a-9aac-8719237a772f")
 			(effects
 				(font
@@ -14656,7 +14661,7 @@
 	(footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "f976523d-2767-413b-8de6-0aacdbd3fcc7")
-		(at 220.92 29.75)
+		(at 245.04 36)
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, length*diameter=5.2*2.7mm^2, https://www.diodes.com/assets/Package-Files/DO-41-Plastic.pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D3"
