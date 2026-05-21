@@ -5555,6 +5555,15 @@
 		(at 255.27 120.65)
 		(uuid "fe508f96-0e3a-4368-8093-54389840245a")
 	)
+	(bus_entry
+		(at 129.54 187.96)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035e4f6d-afe8-472a-85d5-72102136bd7b")
+	)
 	(wire
 		(pts
 			(xy 72.39 109.22) (xy 85.09 109.22)
@@ -9057,7 +9066,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm"
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L38.0mm_W9.0mm_P40.64mm"
 			(at 138.43 165.608 90)
 			(hide yes)
 			(show_name no)
@@ -13551,7 +13560,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_Power_L20.0mm_W6.4mm_P22.40mm"
+		(property "Footprint" "Resistor_THT:R_Axial_Power_L38.0mm_W9.0mm_P40.64mm"
 			(at 138.43 173.228 90)
 			(hide yes)
 			(show_name no)
