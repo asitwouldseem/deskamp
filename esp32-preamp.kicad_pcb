@@ -3249,11 +3249,11 @@
 	(footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "4f9d36ac-8c26-4921-bdc0-3c47fb87c54a")
-		(at 171.05 146.3)
+		(at 165.46 122.77 90)
 		(descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor handsolder")
 		(property "Reference" "C12"
-			(at 0 -1.85 0)
+			(at 3.41 0.02 180)
 			(layer "F.SilkS")
 			(uuid "15e893e5-f063-4f6d-a11f-c35f18be5705")
 			(effects
@@ -3264,7 +3264,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 0 1.85 0)
+			(at 0 1.85 90)
 			(layer "F.Fab")
 			(uuid "b10b5818-ca63-4cd4-8fca-381cf1f4fbcb")
 			(effects
@@ -3275,7 +3275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e8fae1a9-8217-4494-b178-439b705e9e5f")
@@ -3286,7 +3286,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9aff2e0f-bacd-46af-b80f-96ad0e9b3031")
@@ -3351,7 +3351,7 @@
 			(uuid "a7be4c6a-2dee-4345-b8f9-6d54e0fde8c5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 0)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "dd0b7935-eb23-42a0-bfa8-af62b13a3693")
 			(effects
@@ -3362,7 +3362,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.5625 0)
+			(at -1.5625 0 90)
 			(size 1.325 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
@@ -3371,7 +3371,7 @@
 			(uuid "efa979c4-8d8a-45a4-b152-b414f82b80ab")
 		)
 		(pad "2" smd roundrect
-			(at 1.5625 0)
+			(at 1.5625 0 90)
 			(size 1.325 1.8)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.188679)
@@ -13178,14 +13178,6 @@
 		(uuid "8120ea24-3396-44e9-a2bc-b736c45eb596")
 	)
 	(segment
-		(start 172.08125 158.25635)
-		(end 173.40005 158.25635)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+5VA")
-		(uuid "00891e9b-c142-47f5-ae73-f5c90d618eaa")
-	)
-	(segment
 		(start 142.5824 126.74)
 		(end 145.6212 129.7788)
 		(width 0.2)
@@ -13210,22 +13202,6 @@
 		(uuid "42efe40c-e4ff-40c4-b801-bb49b0fd815d")
 	)
 	(segment
-		(start 174.40005 159.25635)
-		(end 173.40005 158.25635)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+5VA")
-		(uuid "6b0762d9-c7ef-4124-8455-d652294d1b99")
-	)
-	(segment
-		(start 173.40005 158.25635)
-		(end 176.41885 158.25635)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+5VA")
-		(uuid "6cfcf9ac-0342-4dd2-99d4-32cf29ad4680")
-	)
-	(segment
 		(start 152.56585 129.83)
 		(end 148.3224 129.83)
 		(width 0.2)
@@ -13240,14 +13216,6 @@
 		(layer "F.Cu")
 		(net "+5VA")
 		(uuid "838a140d-2a5a-48c0-86cb-5a859bfb0f79")
-	)
-	(segment
-		(start 176.41885 158.25635)
-		(end 177.38125 159.21875)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+5VA")
-		(uuid "87f3d556-9c27-4d46-9112-be7554da7c01")
 	)
 	(segment
 		(start 147.0324 128.54)
@@ -13266,14 +13234,6 @@
 		(uuid "9725260c-9dd3-41c1-a16e-9b4a3f4b6152")
 	)
 	(segment
-		(start 177.38125 159.21875)
-		(end 177.38125 161.21875)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "+5VA")
-		(uuid "bc2bdfbf-8880-4199-bdd3-a34ad18ab46b")
-	)
-	(segment
 		(start 165.3 131.1)
 		(end 162.92 131.1)
 		(width 0.2)
@@ -13288,14 +13248,6 @@
 		(layers "F.Cu" "B.Cu")
 		(net "+5VA")
 		(uuid "7ca32f77-a6e5-4661-b559-2156018e1966")
-	)
-	(via
-		(at 172.08125 158.25635)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(net "+5VA")
-		(uuid "ca765aeb-4bb3-4405-883e-44aa2c2782ab")
 	)
 	(via
 		(at 165.83 131.63)
@@ -13362,14 +13314,6 @@
 		(uuid "f09e0603-5f74-4806-bbb4-66f3f0fe76af")
 	)
 	(segment
-		(start 177.31875 162.78125)
-		(end 174.38125 162.78125)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GNDA")
-		(uuid "3122fa97-ca40-4105-9872-5e8b9785a446")
-	)
-	(segment
 		(start 162.1424 133.63)
 		(end 159.83 133.63)
 		(width 0.5)
@@ -13386,14 +13330,6 @@
 		(uuid "4d94c4fe-27cb-4247-9c8c-348f5cd384bf")
 	)
 	(segment
-		(start 177.35495 152.65625)
-		(end 178.86245 154.16375)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GNDA")
-		(uuid "6ac2eb92-2045-4382-bacc-cf3a08ba7f7e")
-	)
-	(segment
 		(start 162.1848 127.3)
 		(end 159.8724 127.3)
 		(width 0.5)
@@ -13408,22 +13344,6 @@
 		(layer "F.Cu")
 		(net "GNDA")
 		(uuid "a9177430-e5dd-48d5-8d2d-66c29d1a7b7c")
-	)
-	(segment
-		(start 174.38125 152.65625)
-		(end 177.35495 152.65625)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GNDA")
-		(uuid "c5508509-c777-424a-9291-7c57469e1c37")
-	)
-	(segment
-		(start 178.88125 161.21875)
-		(end 177.31875 162.78125)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "GNDA")
-		(uuid "c62f2553-2d51-4c4a-a321-38733a1013e3")
 	)
 	(via
 		(at 158.9424 128.23)
@@ -13570,20 +13490,12 @@
 		(uuid "fad3727f-6ccf-4271-b8f3-6b64c2be5d5c")
 	)
 	(segment
-		(start 176.40005 157.08375)
-		(end 177.36245 156.12135)
+		(start 168.79 125.75)
+		(end 166.8775 125.75)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "-5VA")
-		(uuid "151c304b-e307-408f-a31f-77e037bf9368")
-	)
-	(segment
-		(start 174.38125 156.08375)
-		(end 173.38125 157.08375)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "-5VA")
-		(uuid "234950ab-b257-43e8-a491-79e46e9afec3")
+		(uuid "1a0301dd-2aaf-4355-9222-d5ea5b85e3f4")
 	)
 	(segment
 		(start 165.27 129.83)
@@ -13610,6 +13522,14 @@
 		(uuid "4d4f58c5-a4b0-43e9-8940-bc4779daba4c")
 	)
 	(segment
+		(start 166.8775 125.75)
+		(end 165.46 124.3325)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "-5VA")
+		(uuid "8329d8be-8b72-4995-826a-ab16bdd82463")
+	)
+	(segment
 		(start 161.4075 138.7675)
 		(end 162.2925 138.7675)
 		(width 0.2)
@@ -13618,36 +13538,12 @@
 		(uuid "8630bbdc-1504-48bf-9406-15b92566848b")
 	)
 	(segment
-		(start 176.38125 157.08375)
-		(end 176.40005 157.08375)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "-5VA")
-		(uuid "9fdf04ec-f8e5-45b7-9331-e526748588af")
-	)
-	(segment
-		(start 177.36245 156.12135)
-		(end 177.36245 154.16375)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "-5VA")
-		(uuid "a1012d50-d3c8-4264-b75a-5d2e9e2aa7b3")
-	)
-	(segment
 		(start 174.38125 155.78125)
 		(end 174.38125 156.08375)
 		(width 0.2)
 		(layer "F.Cu")
 		(net "-5VA")
 		(uuid "b0db7463-2979-4656-b26a-ba55ac888e9f")
-	)
-	(segment
-		(start 173.38125 157.08375)
-		(end 176.38125 157.08375)
-		(width 0.2)
-		(layer "F.Cu")
-		(net "-5VA")
-		(uuid "f13ab8d4-a0bc-4c24-8d3c-c681fa826691")
 	)
 	(via
 		(at 164.36 136.7)
